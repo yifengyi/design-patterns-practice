@@ -1,0 +1,16 @@
+package patterns.structural.facade.practice.some_complex_media_library;
+
+/**
+ * 1.0v created by wujf on 2021-2-3
+ */
+public class BitrateReader {
+  public static VideoFile read(VideoFile file,Codec codec){
+    System.out.println("BitrateReader: reading file...");
+    return file;
+  }
+
+  public static VideoFile convert(VideoFile buffer, Codec codec) {
+    System.out.println("BitrateReader: writing file...");
+    return buffer;
+  }
+}
