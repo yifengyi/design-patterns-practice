@@ -1,6 +1,7 @@
 package patterns.structural.adapter.practice.round;
 
 /**
+ * 圆洞
  * 1.0v created by wujf on 2021-2-2
  */
 public class RoundHole {
