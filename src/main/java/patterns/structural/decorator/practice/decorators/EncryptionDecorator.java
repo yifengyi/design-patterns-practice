@@ -3,6 +3,8 @@ package patterns.structural.decorator.practice.decorators;
 import java.util.Base64;
 
 /**
+ * // 具体装饰必须在被封装对象上调用方法，不过也可以自行在结果中添加一些内容。
+ * // 装饰必须在调用封装对象之前或之后执行额外的行为。
  * 1.0v created by wujf on 2021-2-3
  */
 public class EncryptionDecorator extends DataSourceDecorator {

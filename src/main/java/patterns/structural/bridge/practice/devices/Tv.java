@@ -1,6 +1,7 @@
 package patterns.structural.bridge.practice.devices;
 
 /**
+ * // 所有设备都遵循相同的接口。
  * 1.0v created by wujf on 2021-2-2
  */
 public class Tv implements Device {

@@ -7,6 +7,7 @@ import patterns.creational.builder.practice.components.Transmission;
 import patterns.creational.builder.practice.components.TripComputer;
 
 /**
+ * // 生成器接口声明了创建产品对象不同部件的方法。
  * 1.0v created by wujf on 2021-1-29
  * 通用生成器接口
  */

@@ -7,6 +7,8 @@ import patterns.creational.builder.practice.cars.Manual;
 import patterns.creational.builder.practice.director.Director;
 
 /**
+ * // 客户端代码会创建生成器对象并将其传递给主管，然后执行构造过程。最终结果
+ * // 将需要从生成器对象中获取。
  * 1.0v created by wujf on 2021-1-29
  * 客户端
  */

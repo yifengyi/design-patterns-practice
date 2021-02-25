@@ -3,6 +3,9 @@ package patterns.structural.proxy.practice.some_cool_media_library;
 import java.util.HashMap;
 
 /**
+ * // 服务连接器的具体实现。该类的方法可以向YouTube请求信息。请求速度取决于
+ * // 用户和YouTube的互联网连接情况。如果同时发送大量请求，即使所请求的信息
+ * // 一模一样，程序的速度依然会减慢。
  * 1.0v created by wujf on 2021-2-3
  */
 public class ThirdPartyYouTubeClass implements ThirdPartyYouTubeLib {

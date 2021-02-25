@@ -3,6 +3,8 @@ package patterns.structural.bridge.practice.remotes;
 import patterns.structural.bridge.practice.devices.Device;
 
 /**
+ * // “抽象部分”定义了两个类层次结构中“控制”部分的接口。它管理着一个指向“实
+ * // 现部分”层次结构中对象的引用，并会将所有真实工作委派给该对象。
  * 1.0v created by wujf on 2021-2-2
  */
 public class BasicRemote implements Remote {

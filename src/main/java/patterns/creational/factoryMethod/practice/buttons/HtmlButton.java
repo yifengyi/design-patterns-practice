@@ -1,6 +1,7 @@
 package patterns.creational.factoryMethod.practice.buttons;
 
 /**
+ * // 具体产品需提供产品接口的各种实现。
  * 1.0v created by wujf on 2021-1-29
  * 具体产品：html按钮
  */

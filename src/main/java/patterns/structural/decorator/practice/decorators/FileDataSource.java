@@ -3,6 +3,7 @@ package patterns.structural.decorator.practice.decorators;
 import java.io.*;
 
 /**
+ * // 具体组件提供操作的默认实现。这些类在程序中可能会有几个变体。
  * 1.0v created by wujf on 2021-2-3
  */
 public class FileDataSource implements DataSource {

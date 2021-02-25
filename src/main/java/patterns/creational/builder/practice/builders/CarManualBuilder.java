@@ -8,6 +8,7 @@ import patterns.creational.builder.practice.components.Transmission;
 import patterns.creational.builder.practice.components.TripComputer;
 
 /**
+ * // 生成器与其他创建型模式的不同之处在于：它让你能创建不遵循相同接口的产品。
  * 1.0v created by wujf on 2021-1-29
  * 汽车手册生成器
  */

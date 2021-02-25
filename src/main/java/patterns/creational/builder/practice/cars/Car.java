@@ -6,6 +6,8 @@ import patterns.creational.builder.practice.components.Transmission;
 import patterns.creational.builder.practice.components.TripComputer;
 
 /**
+ * // 只有当产品较为复杂且需要详细配置时，使用生成器模式才有意义。下面的两个
+ * // 产品尽管没有同样的接口，但却相互关联。
  * 1.0v created by wujf on 2021-1-29
  * 汽车产品
  */

@@ -7,6 +7,8 @@ import patterns.structural.bridge.practice.remotes.AdvancedRemote;
 import patterns.structural.bridge.practice.remotes.BasicRemote;
 
 /**
+ * 远程控制器是抽象部分， 设备则是其实现部分。
+ * 由于有通用的接口， 同一远程控制器可与不同的设备合作， 反过来也一样。
  * 1.0v created by wujf on 2021-2-2
  */
 public class BridgeDemoClient {

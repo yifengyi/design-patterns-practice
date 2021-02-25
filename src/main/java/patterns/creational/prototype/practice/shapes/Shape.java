@@ -3,6 +3,7 @@ package patterns.creational.prototype.practice.shapes;
 import java.util.Objects;
 
 /**
+ * // 基础原型。
  * 1.0v created by wujf on 2021-1-29
  */
 public abstract class Shape {
@@ -21,6 +22,7 @@ public abstract class Shape {
     }
   }
 
+  // clone（克隆）操作会返回一个形状子类。
   public abstract Shape clone();
 
   @Override

@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * // 组合类表示可能包含子项目的复杂组件。组合对象通常会将实际工作委派给子项
+ * // 目，然后“汇总”结果。
  * 1.0v created by wujf on 2021-2-2
  */
 public class CompoundShape extends BaseShape {
@@ -17,6 +19,7 @@ public class CompoundShape extends BaseShape {
     add(components);
   }
 
+  // 组合对象可在其项目列表中添加或移除其他组件（简单的或复杂的皆可）。
   public void add(Shape component) {
     children.add(component);
   }
@@ -37,6 +40,9 @@ public class CompoundShape extends BaseShape {
     children.clear();
   }
 
+  // 组合会以特定的方式执行其主要逻辑。它会递归遍历所有子项目，并收集和
+  // 汇总其结果。由于组合的子项目也会将调用传递给自己的子项目，以此类推，
+  // 最后组合将会完成整个对象树的遍历工作。
   @Override
   public int getX() {
     if (children.size() == 0) {

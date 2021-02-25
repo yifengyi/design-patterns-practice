@@ -10,6 +10,7 @@ import java.util.zip.DeflaterOutputStream;
 import java.util.zip.InflaterInputStream;
 
 /**
+ * // 你可以将对象封装在多层装饰中。
  * 1.0v created by wujf on 2021-2-3
  */
 public class CompressionDecorator extends DataSourceDecorator {

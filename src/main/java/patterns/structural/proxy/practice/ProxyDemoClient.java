@@ -6,6 +6,7 @@ import patterns.structural.proxy.practice.proxy.YouTubeCacheProxy;
 import patterns.structural.proxy.practice.some_cool_media_library.ThirdPartyYouTubeClass;
 
 /**
+ * // 程序可在运行时对代理进行配置。
  * 1.0v created by wujf on 2021-2-3
  */
 public class ProxyDemoClient {

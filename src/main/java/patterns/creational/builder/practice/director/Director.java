@@ -8,6 +8,9 @@ import patterns.creational.builder.practice.components.Transmission;
 import patterns.creational.builder.practice.components.TripComputer;
 
 /**
+ * // 主管只负责按照特定顺序执行生成步骤。其在根据特定步骤或配置来生成产品时
+ * // 会很有帮助。由于客户端可以直接控制生成器，所以严格意义上来说，主管类并
+ * // 不是必需的。
  * 1.0v created by wujf on 2021-1-29
  * 主管控制生成器
  */

@@ -6,6 +6,7 @@ import patterns.creational.abstractFactory.practice.checkboxes.Checkbox;
 import patterns.creational.abstractFactory.practice.checkboxes.WindowsCheckbox;
 
 /**
+ * // 每个具体工厂中都会包含一个相应的产品变体。
  * 1.0v created by wujf on 2021-1-29
  */
 public class WindowsFactory implements GUIFactory{

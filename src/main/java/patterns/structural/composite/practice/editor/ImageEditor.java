@@ -10,6 +10,8 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 /**
+ * // 客户端代码会通过基础接口与所有组件进行交互。这样一来，客户端代码便可同
+ * // 时支持简单叶节点组件和复杂组件。
  * 1.0v created by wujf on 2021-2-2
  */
 public class ImageEditor {

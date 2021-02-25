@@ -13,6 +13,8 @@ import java.util.List;
 public class CloneDemo {
   private static void cloneAndCompare(List<Shape> shapes,
                                       List<Shape> shapesCopy){
+    // 原型是很强大的东西，因为它能在不知晓对象类型的情况下生成一个与
+    // 其完全相同的复制品。
     for (Shape shape : shapes) {
       shapesCopy.add(shape.clone());
     }
