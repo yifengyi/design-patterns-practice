@@ -1,9 +1,11 @@
 package patterns.behavioral.chainOfResponsibility.practice.middleware;
 
 /**
+ *  简单组件的基础
  * 1.0v created by wujf on 2021-2-3
  */
 public abstract class Middleware {
+  // 组件容器在处理者链中作为“下一个”链接。
   private Middleware next;
 
   public Middleware linkWith(Middleware next){
