@@ -32,4 +32,31 @@ public class ReadXML {
 
     return obj;
   }
+
+
+  public static Object getObjectByName(String path,String className){
+    Object obj = null;
+    try {
+      DocumentBuilderFactory factory =DocumentBuilderFactory.newInstance();
+      DocumentBuilder builder =factory.newDocumentBuilder();
+      Document doc = builder.parse(ReadXML.class.getClassLoader().getResourceAsStream(path));
+
+      NodeList list = doc.getElementsByTagName("className");
+      int len = list.getLength();
+
+      for (int i = 0; i < len; i++) {
+        Node node = list.item(i);
+        String clzz = node.getFirstChild().getNodeValue();
+        if (className.equals(clzz)) {
+          String classname = clzz;
+          Class<?> c = Class.forName(classname);
+          obj = c.newInstance();
+        }
+      }
+
+    } catch (ParserConfigurationException | SAXException | IOException | IllegalAccessException | InstantiationException | ClassNotFoundException e) {
+      e.printStackTrace();
+    }
+    return obj;
+  }
 }
